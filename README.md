@@ -93,12 +93,5 @@ Execute these commands in your terminal:
 The model and vectorizer are saved as <mark>.pkl</mark> files and can be integrated into any Python-based system.
 
 ---
-## Compliance and Ethical Considerations
-### AI Regulations (AI-forordningen) and GDPR:
-* Transparency: Clearly document how predictions are made.
-* Human Oversight: Ensure decisions are reviewed by human operators.
-* Data Privacy: Anonymize sensitive data before processing.
-
----
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. PLease make sure to update tests as appropriate
