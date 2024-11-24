@@ -12,7 +12,7 @@ Rødovre Kommune aims to improve efficiency in building application processing b
 
 ## Features
 - **Text Classification**: Uses a machine learning model to classify building descriptions into predefined types.
-- **Feature Extraction**: Converts textual data into numerical features using TF-IDF.
+- **Feature Extraction**: Extract features from mathematical tools such as Feature Importance and Correlation Matrix.
 - **Deployment Ready**: Provides saved models for integration with Rødovre Kommune's IT systems.
 
 ---
@@ -81,7 +81,7 @@ Execute these commands in your terminal:
 ---
 ## Model Details
 * Algorithm: Random Forest Classifier
-* Feature Extraction: TF-IDF (Text Frequency-Inverse Document Frequency)
+* Feature Extraction: Feature Importance and Correlation Matrix
 * Evaluation: Tested on a split dataset (80% training, 20% testing).
 
 ### Performance Metrics
@@ -90,7 +90,7 @@ Execute these commands in your terminal:
 
 ---
 ## Deployment
-The model and vectorizer are saved as <mark>.pkl</mark> files and can be integrated into any Python-based system.
+The model and features are saved as <mark>.pkl</mark> files and can be integrated into any Python-based system.
 
 ---
 ## Contributing
