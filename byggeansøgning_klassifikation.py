@@ -93,15 +93,6 @@ plt.xlabel("Importance Score")
 plt.ylabel("Features")
 plt.show()
 
-# Plotting the histogram for 'projekt_type' distribution
-plt.figure(figsize=(8, 6))
-sns.histplot(data['projekt_type'], kde=False, bins=len(data['projekt_type'].unique()), color='green', edgecolor='black')
-plt.title('Distribution of Project Types')
-plt.xlabel('Project Type')
-plt.ylabel('Frequency')
-plt.xticks(rotation=45)
-plt.show()
-
 
 
 # Save model for reuse
